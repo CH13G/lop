@@ -1,0 +1,50 @@
+{
+  "name": "openevent-mobile",
+  "version": "0.0.5",
+  "scripts": {
+    "start": "roadhog server",
+    "build": "roadhog build",
+    "lint": "eslint --fix src test"
+  },
+  "engines": {
+    "install-node": "6.9.2"
+  },
+  "theme": "./theme.config.js",
+  "dependencies": {
+    "antd-mobile": "^1.0.3",
+    "antd-mobile-demo-data": "^0.1.4",
+    "array-tree-filter": "^1.0.1",
+    "babel-runtime": "^6.9.2",
+    "classnames": "^2.2.5",
+    "dva": "^1.2.1",
+    "g2-mobile": "^2.2.0-beta.1",
+    "highcharts": "^v5.0.14",
+    "lodash": "^4.17.4",
+    "qs": "^6.4.0",
+    "rc-form": "^1.3.0",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-dva-hmr": "^0.3.2",
+    "babel-plugin-import": "^1.1.1",
+    "babel-plugin-module-resolver": "^2.7.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
+    "expect": "^1.20.2",
+    "husky": "^0.12.0",
+    "less": "^2.7.2",
+    "less-vars-to-js": "^1.1.2",
+    "mockjs": "^1.0.1-beta3",
+    "postcss-pxtorem": "^4.0.0",
+    "redbox-react": "^1.3.2",
+    "roadhog": "^0.6.0-beta1"
+  }
+}
